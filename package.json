@@ -1,0 +1,26 @@
+{
+  "name": "cypress-examples",
+  "version": "1.0.0",
+  "description": "This repository contains examples in cypress with the objective to be used as a reference.",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.12.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server",
+    "cy": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sascha10000/cypress-examples.git"
+  },
+  "author": "sascha10k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sascha10000/cypress-examples/issues"
+  },
+  "homepage": "https://github.com/sascha10000/cypress-examples#readme"
+}

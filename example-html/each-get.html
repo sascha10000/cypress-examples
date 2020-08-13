@@ -1,0 +1,19 @@
+<div data-test="content">
+  <button data-test="no1" onclick="doclick(1)">1</button>
+  <button data-test="no2" onclick="doclick(2)">2</button>
+  <button data-test="no3" onclick="doclick(3)">3</button>
+</div>
+<div data-test="content">
+  <button data-test="no1" onclick="doclick(4)">4</button>
+  <button data-test="no2" onclick="doclick(5)">5</button>
+  <button data-test="no3" onclick="doclick(6)">6</button>
+</div>
+<div id="clicked">
+</div>
+
+<script type="text/javascript">
+  function doclick(v){
+    let d = document.getElementById("clicked");
+    d.innerHTML = v;
+  }
+</script>
