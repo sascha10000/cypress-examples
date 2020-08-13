@@ -15,8 +15,8 @@ Now you can execute the test you want to examine.
 ### File: index.html
 Contains a link to each example html including a description below.
 
-### Folder: test
-Contains the html documents created for the test
+### Folder: example-html
+Contains the html documents created for the tests
 
 ### Cypress-Tests
 The folder structure regarding cypress is the standard scaffolding.
